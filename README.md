@@ -5,6 +5,11 @@ http://js13kgames.com
 A maze game.
 You have to find the Love, but it's hiding in the shadows.
 
+TODO - 
+My lives display breaks in the competition environment, so will patch after the judging is done :(
+
+
+
 This was a technical challenge to create a JavaScript game in under 13K, within a month.
 Compressing the walls data for the maze screens has been fun, as has been casting dynamic shadows.
 
