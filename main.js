@@ -120,7 +120,6 @@
 			return;
 		}
 		else{
-			console.log(lvl, levelData[lvl].id, levelData[lvl].m, messages[levelData[lvl].m]);
 			setMessage(levelData[lvl].m);
 			setTitle(levelData[lvl].id);
 			running = false;
