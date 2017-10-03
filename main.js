@@ -73,7 +73,8 @@
 				'Love led you a merry dance.   <br><br>And skipped away.    <br><br><em>Next Level ...</em>',
 				'Did Love leave you in a spin?!   <br><br>Don&rsquo;t be dizzy.    <br><br><em>Next Level ...</em>',
 				'There is no lasting Love before the mast.    <br><br>Time to cast off.    <br><br><em>Next Level ...</em>',
-				'You walked the pathway LOST    <br><br>One more trial for Love be found.   <br><br><em>Next Level ...</em>'],
+				'You walked the pathway LOST    <br><br>One more trial for Love be found.   <br><br><em>Next Level ...</em>',
+				'Did I say ONE more?    <br><br>Sorry, but there&rsquo;s another. Love can be cruel like that.   <br><br><em>Final level.    Honest.</em>'],
 	gameLevel = 0, maxGameLevel,
 	wallString = '',
 	levelData = [];
@@ -83,30 +84,32 @@
 	levelData.push({px:550, py:150, hx:650, hy:550, t:25, m:6, id:'Pirate&rsquo;s Skull', w:'0000050000003c503c10000003c15000503c00a0a1e0a0320a460a000140a14014141e1403214461401e1e3c1e014282828032283c2800a32463211414142811e0a1e1412800281e1282828321320a321413c1e3c2814632463c'});
 	levelData.push({px:50, py:150, hx:650, hy:550, t:25, m:7, id:'L O S T', w:'0000050000003c503c10000003c15000503c0000a0a0a0140a460a0281446140461e501e0281e3c1e00a28322800032143202832323210a000a281140a141e11e141e2811e321e3c12814281e13214321e13228323213c0a3c1413c1e3c3c1461e463c'});
 	levelData.push({px:350, py:350, hx:450, hy:350, t:30, m:8, id:'Think Outside the Box', w:'0-a-a5a-a0000050000003c503c0-a465a461-a-a-a4610000001e10028003c12800283c15000501e15028503c15a-a5a46'});
+	levelData.push({px:350, py:450, hx:550, hy:450, t:45, m:9, id:'Love can be Cruel', w:'014-f3c-f0-a-a14-a03c-a5a-a01e-532-50-f00-a00000000a00032003c000460050000-50a000a00a0a1e0a0-f14-a14028143c14050145a140321e461e0003c283c0323c503c0-a460a4601e463c46046465a460145046501-f00-f141-a-a-a001-a14-a4610000001e10028003c10a000a0a10a3c0a46114-f14001143c145011e-51e0a12814283c132-532001321e323c13c-f3c-a13c003c1413c3c3c4614600461e14646465015000502815032503c15a-a5a46'});
+
 	
 	maxGameLevel = levelData.length;
 
 /************	BUILD TOOL :: DEV CODE - tool to build wall data per screen *************/
 /* ENCODE WALLS */
 
-// 	var wallData = [];
-//	PASTE WALL BUILD DATA FROM 'walls unencoded.js' HERE
+	/*var wallData = [];
+	// PASTE WALL BUILD DATA FROM 'walls unencoded.js' HERE
 
-// 	var wallString='', wData, t;
-// 	for(loop=wallData.length, iterator=0; iterator<loop; iterator++){
-// 		wData = wallData[iterator];
-// 		wallString += wData.v;
-// 		wallString += addToWallString(wData.x1.toString(16));
-// 		wallString += addToWallString(wData.y1.toString(16));
-// 		wallString += addToWallString(wData.x2.toString(16));
-// 		wallString += addToWallString(wData.y2.toString(16));
-// 	}
-// 	function addToWallString(t){
-// 		return (t.length === 1) ? '0'+t : t;
-// 	}
-// 	levelData[0] = {px:400, py:350, hx:400, hy:150, t:30, m:1, id:'DEV', w:wallString};
+	var wallString='', wData, t;
+	for(loop=wallData.length, iterator=0; iterator<loop; iterator++){
+		wData = wallData[iterator];
+		wallString += wData.v;
+		wallString += addToWallString(wData.x1.toString(16));
+		wallString += addToWallString(wData.y1.toString(16));
+		wallString += addToWallString(wData.x2.toString(16));
+		wallString += addToWallString(wData.y2.toString(16));
+	}
+	function addToWallString(t){
+		return (t.length === 1) ? '0'+t : t;
+	}
+	levelData[0] = {px:350, py:450, hx:550, hy:450, t:300, m:9, id:'DEV', w:wallString};
 
-// 	console.log(wallString); // Copy this output string and use to create new levelData object
+	console.log(wallString); // Copy this output string and use to create new levelData object*/
 
 /************ END BUILD TOOL *************/
 
